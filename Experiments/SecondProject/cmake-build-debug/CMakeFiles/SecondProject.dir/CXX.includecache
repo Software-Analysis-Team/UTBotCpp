@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/andrey/CLionProjects/UTBotCpp/Experiments/SecondProject/SimpleClass.h
+
+/home/andrey/CLionProjects/UTBotCpp/Experiments/SecondProject/main.cpp
+iostream
+-
+SimpleClass.h
+/home/andrey/CLionProjects/UTBotCpp/Experiments/SecondProject/SimpleClass.h
+
