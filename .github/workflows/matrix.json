@@ -2,7 +2,7 @@
   "include": [
     {
       "DOCKER_TAG": "18-01-2022",
-      "OPERATING_SYSTEM_TAG": "18.04"
+      "OPERATING_SYSTEM_TAG": "20.04"
     }
   ]
 }
