@@ -10,7 +10,7 @@ CONTAINER_NAME=$USER-utbot-dev
 MOUNT_NAME=$USER-utbot
 MOUNT_LOCAL_NAME=$MOUNT_NAME-local-mnt
 
-IMAGE="test_image2.0:latest"
+IMAGE="kcov_image:latest"
 
 set +e
 docker exec "$CONTAINER_NAME" ls > /dev/null 2>&1
