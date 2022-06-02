@@ -16,3 +16,6 @@
 [submodule "parallel-hashmap"]
 	path = submodules/parallel-hashmap
 	url = https://github.com/greg7mdp/parallel-hashmap
+[submodule "submodules/kcov"]
+	path = submodules/kcov
+	url = https://github.com/SimonKagstrom/kcov
