@@ -34,7 +34,7 @@ grpc::Status CoverageAndResultsGenerator::generate(bool withCoverage,
                                                    utbot::SettingsContext &settingsContext) {
     MEASURE_FUNCTION_EXECUTION_TIME
     try {
-        init(withCoverage);
+        init(withCoverage, true);
         runTests(withCoverage, settingsContext.timeoutPerTest);
         if (withCoverage) {
             collectCoverage();

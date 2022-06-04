@@ -377,7 +377,9 @@ namespace printer {
 
         declareTarget("bin", { FORCE }, { stringFormat("echo %s", coverageInfoBinary) });
 
-        utbot::RunCommand testRunCommand{ { testExecutablePath.string(), "$(GTEST_FLAGS)" },
+        std::string kcovRunCommand = "kcov " + (projectContext.buildDir.string() + " ") + testExecutablePath.string();
+
+        utbot::RunCommand testRunCommand{ { kcovRunCommand, "$(GTEST_FLAGS)" },
                                           buildDirectory };
         testRunCommand.addEnvironmentVariable("PATH", "$$PATH:$(pwd)");
         if (primaryCompilerName == CompilationUtils::CompilerName::GCC) {

@@ -1,0 +1,1993 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="UnitTestBot"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\utbot_distr\;CMake Files\..\..\..\..\utbot_distr\install\;CMake Files\..\..\..\..\utbot_distr\install\lib\;CMake Files\..\..\..\..\utbot_distr\install\lib\cmake\;CMake Files\..\..\..\..\utbot_distr\install\lib\cmake\clang\;CMake Files\..\..\..\..\utbot_distr\install\lib\cmake\llvm\;CMake Files\..\..\..\..\utbot_distr\install\lib\cmake\protobuf\;CMake Files\..\..\..\..\utbot_distr\install\lib\cmake\grpc\;CMake Files\..\..\..\..\utbot_distr\klee\;CMake Files\..\..\..\..\utbot_distr\klee\lib\;CMake Files\..\..\..\..\utbot_distr\klee\lib\run_klee\;CMake Files\..\..\..\..\utbot_distr\klee\lib\run_klee\RelWithDebInfo\;CMake Files\..\..\..\..\utbot_distr\gtest\;CMake Files\..\..\..\..\utbot_distr\gtest\googlemock\;CMake Files\..\..\..\..\utbot_distr\gtest\googlemock\cmake\;CMake Files\..\..\..\..\utbot_distr\gtest\googletest\;CMake Files\..\..\..\..\utbot_distr\gtest\googletest\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/utbot/UTBotCpp/server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/utbot/UTBotCpp/server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/utbot/UTBotCpp/server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/utbot/UTBotCpp/server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/utbot/UTBotCpp/server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/home/utbot/UTBotCpp/server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/utbot/UTBotCpp/server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="UTBot_UnitTests">
+				<Option output="/home/utbot/UTBotCpp/server/cmake-build-debug/UTBot_UnitTests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/utbot/UTBotCpp/server/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_LINUX"/>
+					<Add option="-DUTBOT_DEV_ROOT_DIR=&quot;/utbot_distr&quot;"/>
+					<Add option="-DLOGURU_WITH_STREAMS=1"/>
+					<Add option="-DCARES_STATICLIB"/>
+					<Add option="-D__CLANG_SUPPORT_DYN_ANNOTATION__"/>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add option="-DKLEE_UCLIBC_BCA_NAME=&quot;klee-uclibc.bca&quot;"/>
+					<Add option="-DKLEE_LIBCXX_BC_NAME=&quot;libc++.bca&quot;"/>
+					<Add directory="/home/utbot/UTBotCpp/server/logger-aux"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/json/src"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/ordered-map/include"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/parallel-hashmap"/>
+					<Add directory="/utbot_distr/klee/include"/>
+					<Add directory="/utbot_distr/cli"/>
+					<Add directory="/home/utbot/UTBotCpp/server/cmake-build-debug"/>
+					<Add directory="/home/utbot/UTBotCpp/server/src"/>
+					<Add directory="/home/utbot/UTBotCpp/server/src/include"/>
+					<Add directory="/home/utbot/UTBotCpp/server/resources"/>
+					<Add directory="/home/utbot/UTBotCpp/server/thirdparty/ordered-map"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/loguru"/>
+					<Add directory="/utbot_distr/install/include"/>
+					<Add directory="/utbot_distr/gtest/googletest"/>
+					<Add directory="/utbot_distr/klee/include/run_klee"/>
+					<Add directory="/utbot_distr/klee/lib/run_klee/RelWithDebInfo"/>
+					<Add directory="."/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/utbot_distr/install/lib/clang/10.0.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/utbot_distr/gtest/googletest/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 UTBot_UnitTests"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="UTBot_UnitTests/fast">
+				<Option output="/home/utbot/UTBotCpp/server/cmake-build-debug/UTBot_UnitTests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/utbot/UTBotCpp/server/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_LINUX"/>
+					<Add option="-DUTBOT_DEV_ROOT_DIR=&quot;/utbot_distr&quot;"/>
+					<Add option="-DLOGURU_WITH_STREAMS=1"/>
+					<Add option="-DCARES_STATICLIB"/>
+					<Add option="-D__CLANG_SUPPORT_DYN_ANNOTATION__"/>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add option="-DKLEE_UCLIBC_BCA_NAME=&quot;klee-uclibc.bca&quot;"/>
+					<Add option="-DKLEE_LIBCXX_BC_NAME=&quot;libc++.bca&quot;"/>
+					<Add directory="/home/utbot/UTBotCpp/server/logger-aux"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/json/src"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/ordered-map/include"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/parallel-hashmap"/>
+					<Add directory="/utbot_distr/klee/include"/>
+					<Add directory="/utbot_distr/cli"/>
+					<Add directory="/home/utbot/UTBotCpp/server/cmake-build-debug"/>
+					<Add directory="/home/utbot/UTBotCpp/server/src"/>
+					<Add directory="/home/utbot/UTBotCpp/server/src/include"/>
+					<Add directory="/home/utbot/UTBotCpp/server/resources"/>
+					<Add directory="/home/utbot/UTBotCpp/server/thirdparty/ordered-map"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/loguru"/>
+					<Add directory="/utbot_distr/install/include"/>
+					<Add directory="/utbot_distr/gtest/googletest"/>
+					<Add directory="/utbot_distr/klee/include/run_klee"/>
+					<Add directory="/utbot_distr/klee/lib/run_klee/RelWithDebInfo"/>
+					<Add directory="."/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/utbot_distr/install/lib/clang/10.0.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/utbot_distr/gtest/googletest/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 UTBot_UnitTests/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="utbot">
+				<Option output="/home/utbot/UTBotCpp/server/cmake-build-debug/utbot" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/utbot/UTBotCpp/server/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_LINUX"/>
+					<Add option="-DUTBOT_DEV_ROOT_DIR=&quot;/utbot_distr&quot;"/>
+					<Add option="-DLOGURU_WITH_STREAMS=1"/>
+					<Add option="-DCARES_STATICLIB"/>
+					<Add option="-D__CLANG_SUPPORT_DYN_ANNOTATION__"/>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add option="-DKLEE_UCLIBC_BCA_NAME=&quot;klee-uclibc.bca&quot;"/>
+					<Add option="-DKLEE_LIBCXX_BC_NAME=&quot;libc++.bca&quot;"/>
+					<Add directory="/home/utbot/UTBotCpp/server/logger-aux"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/json/src"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/ordered-map/include"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/parallel-hashmap"/>
+					<Add directory="/utbot_distr/klee/include"/>
+					<Add directory="/utbot_distr/cli"/>
+					<Add directory="/home/utbot/UTBotCpp/server/cmake-build-debug"/>
+					<Add directory="/home/utbot/UTBotCpp/server/src"/>
+					<Add directory="/home/utbot/UTBotCpp/server/resources"/>
+					<Add directory="/home/utbot/UTBotCpp/server/thirdparty/ordered-map"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/loguru"/>
+					<Add directory="/utbot_distr/install/include"/>
+					<Add directory="/utbot_distr/klee/include/run_klee"/>
+					<Add directory="/utbot_distr/klee/lib/run_klee/RelWithDebInfo"/>
+					<Add directory="."/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/utbot_distr/install/lib/clang/10.0.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/utbot_distr/gtest/googletest/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 utbot"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="utbot/fast">
+				<Option output="/home/utbot/UTBotCpp/server/cmake-build-debug/utbot" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/utbot/UTBotCpp/server/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_LINUX"/>
+					<Add option="-DUTBOT_DEV_ROOT_DIR=&quot;/utbot_distr&quot;"/>
+					<Add option="-DLOGURU_WITH_STREAMS=1"/>
+					<Add option="-DCARES_STATICLIB"/>
+					<Add option="-D__CLANG_SUPPORT_DYN_ANNOTATION__"/>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add option="-DKLEE_UCLIBC_BCA_NAME=&quot;klee-uclibc.bca&quot;"/>
+					<Add option="-DKLEE_LIBCXX_BC_NAME=&quot;libc++.bca&quot;"/>
+					<Add directory="/home/utbot/UTBotCpp/server/logger-aux"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/json/src"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/ordered-map/include"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/parallel-hashmap"/>
+					<Add directory="/utbot_distr/klee/include"/>
+					<Add directory="/utbot_distr/cli"/>
+					<Add directory="/home/utbot/UTBotCpp/server/cmake-build-debug"/>
+					<Add directory="/home/utbot/UTBotCpp/server/src"/>
+					<Add directory="/home/utbot/UTBotCpp/server/resources"/>
+					<Add directory="/home/utbot/UTBotCpp/server/thirdparty/ordered-map"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/loguru"/>
+					<Add directory="/utbot_distr/install/include"/>
+					<Add directory="/utbot_distr/klee/include/run_klee"/>
+					<Add directory="/utbot_distr/klee/lib/run_klee/RelWithDebInfo"/>
+					<Add directory="."/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/utbot_distr/install/lib/clang/10.0.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/utbot_distr/gtest/googletest/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 utbot/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="UnitTestBotLib">
+				<Option output="/home/utbot/UTBotCpp/server/cmake-build-debug/libUnitTestBotLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/utbot/UTBotCpp/server/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_LINUX"/>
+					<Add option="-DUTBOT_DEV_ROOT_DIR=&quot;/utbot_distr&quot;"/>
+					<Add option="-DLOGURU_WITH_STREAMS=1"/>
+					<Add option="-DCARES_STATICLIB"/>
+					<Add option="-D__CLANG_SUPPORT_DYN_ANNOTATION__"/>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add option="-DKLEE_UCLIBC_BCA_NAME=&quot;klee-uclibc.bca&quot;"/>
+					<Add option="-DKLEE_LIBCXX_BC_NAME=&quot;libc++.bca&quot;"/>
+					<Add directory="/home/utbot/UTBotCpp/server/logger-aux"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/json/src"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/ordered-map/include"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/parallel-hashmap"/>
+					<Add directory="/utbot_distr/klee/include"/>
+					<Add directory="/utbot_distr/cli"/>
+					<Add directory="/home/utbot/UTBotCpp/server/cmake-build-debug"/>
+					<Add directory="/home/utbot/UTBotCpp/server/src"/>
+					<Add directory="/home/utbot/UTBotCpp/server/resources"/>
+					<Add directory="/home/utbot/UTBotCpp/server/thirdparty/ordered-map"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/loguru"/>
+					<Add directory="/utbot_distr/install/include"/>
+					<Add directory="/utbot_distr/klee/include/run_klee"/>
+					<Add directory="/utbot_distr/klee/lib/run_klee/RelWithDebInfo"/>
+					<Add directory="."/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/utbot_distr/install/lib/clang/10.0.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/utbot_distr/gtest/googletest/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 UnitTestBotLib"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="UnitTestBotLib/fast">
+				<Option output="/home/utbot/UTBotCpp/server/cmake-build-debug/libUnitTestBotLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/utbot/UTBotCpp/server/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_LINUX"/>
+					<Add option="-DUTBOT_DEV_ROOT_DIR=&quot;/utbot_distr&quot;"/>
+					<Add option="-DLOGURU_WITH_STREAMS=1"/>
+					<Add option="-DCARES_STATICLIB"/>
+					<Add option="-D__CLANG_SUPPORT_DYN_ANNOTATION__"/>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add option="-DKLEE_UCLIBC_BCA_NAME=&quot;klee-uclibc.bca&quot;"/>
+					<Add option="-DKLEE_LIBCXX_BC_NAME=&quot;libc++.bca&quot;"/>
+					<Add directory="/home/utbot/UTBotCpp/server/logger-aux"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/json/src"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/ordered-map/include"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/parallel-hashmap"/>
+					<Add directory="/utbot_distr/klee/include"/>
+					<Add directory="/utbot_distr/cli"/>
+					<Add directory="/home/utbot/UTBotCpp/server/cmake-build-debug"/>
+					<Add directory="/home/utbot/UTBotCpp/server/src"/>
+					<Add directory="/home/utbot/UTBotCpp/server/resources"/>
+					<Add directory="/home/utbot/UTBotCpp/server/thirdparty/ordered-map"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/loguru"/>
+					<Add directory="/utbot_distr/install/include"/>
+					<Add directory="/utbot_distr/klee/include/run_klee"/>
+					<Add directory="/utbot_distr/klee/lib/run_klee/RelWithDebInfo"/>
+					<Add directory="."/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/utbot_distr/install/lib/clang/10.0.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/utbot_distr/gtest/googletest/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 UnitTestBotLib/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="loguru">
+				<Option output="/home/utbot/UTBotCpp/server/cmake-build-debug/libloguru.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/utbot/UTBotCpp/server/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_LINUX"/>
+					<Add option="-DUTBOT_DEV_ROOT_DIR=&quot;/utbot_distr&quot;"/>
+					<Add option="-DLOGURU_WITH_STREAMS=1"/>
+					<Add directory="/utbot_distr/install/include"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/loguru"/>
+					<Add directory="/home/utbot/UTBotCpp/server/logger-aux"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/json/src"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/ordered-map/include"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/parallel-hashmap"/>
+					<Add directory="/utbot_distr/klee/include"/>
+					<Add directory="/utbot_distr/cli"/>
+					<Add directory="/home/utbot/UTBotCpp/server/cmake-build-debug"/>
+					<Add directory="."/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/utbot_distr/install/lib/clang/10.0.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/utbot_distr/gtest/googletest/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 loguru"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="loguru/fast">
+				<Option output="/home/utbot/UTBotCpp/server/cmake-build-debug/libloguru.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/utbot/UTBotCpp/server/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_LINUX"/>
+					<Add option="-DUTBOT_DEV_ROOT_DIR=&quot;/utbot_distr&quot;"/>
+					<Add option="-DLOGURU_WITH_STREAMS=1"/>
+					<Add directory="/utbot_distr/install/include"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/loguru"/>
+					<Add directory="/home/utbot/UTBotCpp/server/logger-aux"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/json/src"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/ordered-map/include"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/parallel-hashmap"/>
+					<Add directory="/utbot_distr/klee/include"/>
+					<Add directory="/utbot_distr/cli"/>
+					<Add directory="/home/utbot/UTBotCpp/server/cmake-build-debug"/>
+					<Add directory="."/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/utbot_distr/install/lib/clang/10.0.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/utbot_distr/gtest/googletest/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 loguru/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="clang-tablegen-targets">
+				<Option working_dir="/home/utbot/UTBotCpp/server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clang-tablegen-targets"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/utbot/UTBotCpp/server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="intrinsics_gen">
+				<Option working_dir="/home/utbot/UTBotCpp/server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 intrinsics_gen"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main">
+				<Option output="/home/utbot/UTBotCpp/server/cmake-build-debug/lib/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/utbot/UTBotCpp/server/cmake-build-debug/googletest-build/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_LINUX"/>
+					<Add option="-DUTBOT_DEV_ROOT_DIR=&quot;/utbot_distr&quot;"/>
+					<Add option="-DLOGURU_WITH_STREAMS=1"/>
+					<Add directory="/utbot_distr/install/include"/>
+					<Add directory="/home/utbot/UTBotCpp/server/logger-aux"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/json/src"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/ordered-map/include"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/parallel-hashmap"/>
+					<Add directory="/utbot_distr/klee/include"/>
+					<Add directory="/utbot_distr/cli"/>
+					<Add directory="/home/utbot/UTBotCpp/server/cmake-build-debug"/>
+					<Add directory="/utbot_distr/gtest/googlemock/include"/>
+					<Add directory="/utbot_distr/gtest/googlemock"/>
+					<Add directory="/utbot_distr/gtest/googletest"/>
+					<Add directory="."/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/utbot_distr/install/lib/clang/10.0.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/utbot_distr/gtest/googletest/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main/fast">
+				<Option output="/home/utbot/UTBotCpp/server/cmake-build-debug/lib/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/utbot/UTBotCpp/server/cmake-build-debug/googletest-build/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_LINUX"/>
+					<Add option="-DUTBOT_DEV_ROOT_DIR=&quot;/utbot_distr&quot;"/>
+					<Add option="-DLOGURU_WITH_STREAMS=1"/>
+					<Add directory="/utbot_distr/install/include"/>
+					<Add directory="/home/utbot/UTBotCpp/server/logger-aux"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/json/src"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/ordered-map/include"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/parallel-hashmap"/>
+					<Add directory="/utbot_distr/klee/include"/>
+					<Add directory="/utbot_distr/cli"/>
+					<Add directory="/home/utbot/UTBotCpp/server/cmake-build-debug"/>
+					<Add directory="/utbot_distr/gtest/googlemock/include"/>
+					<Add directory="/utbot_distr/gtest/googlemock"/>
+					<Add directory="/utbot_distr/gtest/googletest"/>
+					<Add directory="."/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/utbot_distr/install/lib/clang/10.0.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/utbot_distr/gtest/googletest/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock">
+				<Option output="/home/utbot/UTBotCpp/server/cmake-build-debug/lib/libgmockd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/utbot/UTBotCpp/server/cmake-build-debug/googletest-build/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_LINUX"/>
+					<Add option="-DUTBOT_DEV_ROOT_DIR=&quot;/utbot_distr&quot;"/>
+					<Add option="-DLOGURU_WITH_STREAMS=1"/>
+					<Add directory="/utbot_distr/install/include"/>
+					<Add directory="/home/utbot/UTBotCpp/server/logger-aux"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/json/src"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/ordered-map/include"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/parallel-hashmap"/>
+					<Add directory="/utbot_distr/klee/include"/>
+					<Add directory="/utbot_distr/cli"/>
+					<Add directory="/home/utbot/UTBotCpp/server/cmake-build-debug"/>
+					<Add directory="/utbot_distr/gtest/googlemock/include"/>
+					<Add directory="/utbot_distr/gtest/googlemock"/>
+					<Add directory="/utbot_distr/gtest/googletest"/>
+					<Add directory="."/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/utbot_distr/install/lib/clang/10.0.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/utbot_distr/gtest/googletest/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock/fast">
+				<Option output="/home/utbot/UTBotCpp/server/cmake-build-debug/lib/libgmockd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/utbot/UTBotCpp/server/cmake-build-debug/googletest-build/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_LINUX"/>
+					<Add option="-DUTBOT_DEV_ROOT_DIR=&quot;/utbot_distr&quot;"/>
+					<Add option="-DLOGURU_WITH_STREAMS=1"/>
+					<Add directory="/utbot_distr/install/include"/>
+					<Add directory="/home/utbot/UTBotCpp/server/logger-aux"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/json/src"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/ordered-map/include"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/parallel-hashmap"/>
+					<Add directory="/utbot_distr/klee/include"/>
+					<Add directory="/utbot_distr/cli"/>
+					<Add directory="/home/utbot/UTBotCpp/server/cmake-build-debug"/>
+					<Add directory="/utbot_distr/gtest/googlemock/include"/>
+					<Add directory="/utbot_distr/gtest/googlemock"/>
+					<Add directory="/utbot_distr/gtest/googletest"/>
+					<Add directory="."/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/utbot_distr/install/lib/clang/10.0.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/utbot_distr/gtest/googletest/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/home/utbot/UTBotCpp/server/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/utbot/UTBotCpp/server/cmake-build-debug/googletest-build/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_LINUX"/>
+					<Add option="-DUTBOT_DEV_ROOT_DIR=&quot;/utbot_distr&quot;"/>
+					<Add option="-DLOGURU_WITH_STREAMS=1"/>
+					<Add directory="/utbot_distr/install/include"/>
+					<Add directory="/home/utbot/UTBotCpp/server/logger-aux"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/json/src"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/ordered-map/include"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/parallel-hashmap"/>
+					<Add directory="/utbot_distr/klee/include"/>
+					<Add directory="/utbot_distr/cli"/>
+					<Add directory="/home/utbot/UTBotCpp/server/cmake-build-debug"/>
+					<Add directory="/utbot_distr/gtest/googletest"/>
+					<Add directory="."/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/utbot_distr/install/lib/clang/10.0.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/utbot_distr/gtest/googletest/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/home/utbot/UTBotCpp/server/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/utbot/UTBotCpp/server/cmake-build-debug/googletest-build/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_LINUX"/>
+					<Add option="-DUTBOT_DEV_ROOT_DIR=&quot;/utbot_distr&quot;"/>
+					<Add option="-DLOGURU_WITH_STREAMS=1"/>
+					<Add directory="/utbot_distr/install/include"/>
+					<Add directory="/home/utbot/UTBotCpp/server/logger-aux"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/json/src"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/ordered-map/include"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/parallel-hashmap"/>
+					<Add directory="/utbot_distr/klee/include"/>
+					<Add directory="/utbot_distr/cli"/>
+					<Add directory="/home/utbot/UTBotCpp/server/cmake-build-debug"/>
+					<Add directory="/utbot_distr/gtest/googletest"/>
+					<Add directory="."/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/utbot_distr/install/lib/clang/10.0.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/utbot_distr/gtest/googletest/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/home/utbot/UTBotCpp/server/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/utbot/UTBotCpp/server/cmake-build-debug/googletest-build/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_LINUX"/>
+					<Add option="-DUTBOT_DEV_ROOT_DIR=&quot;/utbot_distr&quot;"/>
+					<Add option="-DLOGURU_WITH_STREAMS=1"/>
+					<Add directory="/utbot_distr/install/include"/>
+					<Add directory="/home/utbot/UTBotCpp/server/logger-aux"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/json/src"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/ordered-map/include"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/parallel-hashmap"/>
+					<Add directory="/utbot_distr/klee/include"/>
+					<Add directory="/utbot_distr/cli"/>
+					<Add directory="/home/utbot/UTBotCpp/server/cmake-build-debug"/>
+					<Add directory="/utbot_distr/gtest/googletest"/>
+					<Add directory="."/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/utbot_distr/install/lib/clang/10.0.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/utbot_distr/gtest/googletest/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/home/utbot/UTBotCpp/server/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/utbot/UTBotCpp/server/cmake-build-debug/googletest-build/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_LINUX"/>
+					<Add option="-DUTBOT_DEV_ROOT_DIR=&quot;/utbot_distr&quot;"/>
+					<Add option="-DLOGURU_WITH_STREAMS=1"/>
+					<Add directory="/utbot_distr/install/include"/>
+					<Add directory="/home/utbot/UTBotCpp/server/logger-aux"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/json/src"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/ordered-map/include"/>
+					<Add directory="/home/utbot/UTBotCpp/submodules/parallel-hashmap"/>
+					<Add directory="/utbot_distr/klee/include"/>
+					<Add directory="/utbot_distr/cli"/>
+					<Add directory="/home/utbot/UTBotCpp/server/cmake-build-debug"/>
+					<Add directory="/utbot_distr/gtest/googletest"/>
+					<Add directory="."/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/utbot_distr/install/lib/clang/10.0.1/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/utbot_distr/gtest/googletest/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/utbot/UTBotCpp/server/cmake-build-debug/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/utbot/UTBotCpp/server/cmake-build-debug/CMakeFiles/UTBot_UnitTests.dir/cmake_pch.hxx">
+			<Option target="UTBot_UnitTests"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/cmake-build-debug/CMakeFiles/UTBot_UnitTests.dir/cmake_pch.hxx.cxx">
+			<Option target="UTBot_UnitTests"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/cmake-build-debug/CMakeFiles/UnitTestBotLib.dir/cmake_pch.hxx">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/cmake-build-debug/CMakeFiles/UnitTestBotLib.dir/cmake_pch.hxx.cxx">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/cmake-build-debug/CMakeFiles/utbot.dir/cmake_pch.hxx">
+			<Option target="utbot"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/cmake-build-debug/CMakeFiles/utbot.dir/cmake_pch.hxx.cxx">
+			<Option target="utbot"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/cmake-build-debug/protobuf/testgen.grpc.pb.cc">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/cmake-build-debug/protobuf/testgen.grpc.pb.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/cmake-build-debug/protobuf/testgen.pb.cc">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/cmake-build-debug/protobuf/testgen.pb.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/cmake-build-debug/protobuf/util.grpc.pb.cc">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/cmake-build-debug/protobuf/util.grpc.pb.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/cmake-build-debug/protobuf/util.pb.cc">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/cmake-build-debug/protobuf/util.pb.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/logger-aux/loguru_debug.cpp">
+			<Option target="loguru"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/main.cpp">
+			<Option target="utbot"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/pch.h">
+			<Option target="utbot"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/BordersFinder.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/BordersFinder.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/BuildResult.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/BuildResult.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/FeaturesFilter.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/FeaturesFilter.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/GTestLogger.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/GTestLogger.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/Include.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/Include.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/KleeGenerator.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/KleeGenerator.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/KleeRunner.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/KleeRunner.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/Language.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/Language.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/LineInfo.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/NameDecorator.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/NameDecorator.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/PathSubstitution.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/PathSubstitution.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/Paths.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/Paths.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/ProjectContext.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/ProjectContext.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/ProjectTarget.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/ProjectTarget.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/RequestEnvironment.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/RequestEnvironment.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/Result.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/ReturnTypesFetcher.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/ReturnTypesFetcher.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/Server.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/Server.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/SettingsContext.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/SettingsContext.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/Synchronizer.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/Synchronizer.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/Tests.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/Tests.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/ThreadSafeContainers.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/TimeExecStatistics.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/TimeExecStatistics.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/Version.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/building">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/building/BaseCommand.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/building/BaseCommand.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/building/BuildDatabase.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/building/BuildDatabase.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/building/CompilationDatabase.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/building/CompilationDatabase.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/building/CompileCommand.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/building/CompileCommand.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/building/IRParser.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/building/IRParser.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/building/LinkCommand.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/building/LinkCommand.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/building/Linker.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/building/Linker.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/building/RunCommand.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/building/RunCommand.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/building/UserProjectConfiguration.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/building/UserProjectConfiguration.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/clang-utils">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/clang-utils/ASTPrinter.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/clang-utils/ASTPrinter.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/clang-utils/AlignmentFetcher.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/clang-utils/AlignmentFetcher.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/clang-utils/ClangUtils.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/clang-utils/ClangUtils.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/clang-utils/Matchers.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/clang-utils/Matchers.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/clang-utils/SimpleFrontendActionFactory.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/clang-utils/SimpleFrontendActionFactory.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/clang-utils/SourceFileChainedCallbacks.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/clang-utils/SourceFileChainedCallbacks.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/clang-utils/SourceToHeaderMatchCallback.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/clang-utils/SourceToHeaderMatchCallback.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/clang-utils/SourceToHeaderRewriter.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/clang-utils/SourceToHeaderRewriter.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/commands">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/commands/Commands.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/commands/Commands.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/coverage">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/coverage/Coverage.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/coverage/Coverage.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/coverage/CoverageAndResultsGenerator.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/coverage/CoverageAndResultsGenerator.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/coverage/CoverageTool.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/coverage/CoverageTool.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/coverage/GcovCoverageTool.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/coverage/GcovCoverageTool.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/coverage/LlvmCoverageTool.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/coverage/LlvmCoverageTool.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/coverage/TestRunner.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/coverage/TestRunner.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/coverage/UnitTest.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/coverage/UnitTest.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/environment">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/environment/EnvironmentPaths.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/environment/EnvironmentPaths.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/exceptions">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/exceptions/BaseException.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/exceptions/CancellationException.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/exceptions/CompilationDatabaseException.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/exceptions/CoverageGenerationException.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/exceptions/EnvironmentException.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/exceptions/ExecutionProcessException.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/exceptions/ExecutionProcessException.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/exceptions/FileNotPresentedInArtifactException.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/exceptions/FileNotPresentedInArtifactException.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/exceptions/FileNotPresentedInCommandsException.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/exceptions/FileNotPresentedInCommandsException.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/exceptions/FileSystemException.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/exceptions/FileSystemException.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/exceptions/IncorrectIndexException.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/exceptions/LLVMException.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/exceptions/NoSuchTypeException.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/exceptions/NoTestGeneratedException.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/exceptions/RequestCancellationException.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/exceptions/UnImplementedException.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/fetchers">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/fetchers/ArraySubscriptFetcherMatchCallback.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/fetchers/ArraySubscriptFetcherMatchCallback.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/fetchers/Fetcher.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/fetchers/Fetcher.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/fetchers/FetcherUtils.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/fetchers/FetcherUtils.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/fetchers/FunctionDeclsMatchCallback.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/fetchers/FunctionDeclsMatchCallback.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/fetchers/GlobalVariableUsageMatchCallback.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/fetchers/GlobalVariableUsageMatchCallback.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/fetchers/IncludeFetchSourceFileCallback.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/fetchers/IncludeFetchSourceFileCallback.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/fetchers/ReturnStmtFetcherMatchCallback.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/fetchers/ReturnStmtFetcherMatchCallback.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/fetchers/SingleFileParseModeCallback.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/fetchers/SingleFileParseModeCallback.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/fetchers/TypeDeclsMatchCallback.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/fetchers/TypeDeclsMatchCallback.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/printers">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/printers/CCJsonPrinter.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/printers/CCJsonPrinter.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/printers/DefaultMakefilePrinter.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/printers/DefaultMakefilePrinter.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/printers/HeaderPrinter.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/printers/HeaderPrinter.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/printers/KleeConstraintsPrinter.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/printers/KleeConstraintsPrinter.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/printers/KleePrinter.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/printers/KleePrinter.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/printers/NativeMakefilePrinter.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/printers/NativeMakefilePrinter.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/printers/Printer.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/printers/Printer.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/printers/SourceWrapperPrinter.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/printers/SourceWrapperPrinter.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/printers/StubsPrinter.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/printers/StubsPrinter.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/printers/TestMakefilesPrinter.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/printers/TestMakefilesPrinter.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/printers/TestsPrinter.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/printers/TestsPrinter.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/streams">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/streams/BaseWriter.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/streams/BaseWriter.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/streams/DummyStreamWriter.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/streams/DummyStreamWriter.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/streams/FileTargetsWriter.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/streams/FileTargetsWriter.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/streams/IStreamWriter.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/streams/IStreamWriter.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/streams/MessageWriter.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/streams/ProgressWriter.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/streams/ProgressWriter.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/streams/ProjectConfigWriter.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/streams/ProjectConfigWriter.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/streams/ProjectTargetsWriter.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/streams/ProjectTargetsWriter.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/streams/ServerWriter.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/streams/TargetsWriter.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/streams/TargetsWriter.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/streams/WriterUtils.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/streams/WriterUtils.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/streams/coverage">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/streams/coverage/CLICoverageAndResultsWriter.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/streams/coverage/CLICoverageAndResultsWriter.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/streams/coverage/CoverageAndResultsWriter.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/streams/coverage/CoverageAndResultsWriter.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/streams/coverage/ServerCoverageAndResultsWriter.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/streams/coverage/ServerCoverageAndResultsWriter.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/streams/stubs">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/streams/stubs/CLIStubsWriter.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/streams/stubs/CLIStubsWriter.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/streams/stubs/ServerStubsWriter.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/streams/stubs/ServerStubsWriter.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/streams/stubs/StubsWriter.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/streams/stubs/StubsWriter.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/streams/tests">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/streams/tests/CLITestsWriter.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/streams/tests/CLITestsWriter.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/streams/tests/ServerTestsWriter.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/streams/tests/ServerTestsWriter.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/streams/tests/TestsWriter.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/streams/tests/TestsWriter.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/stubs">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/stubs/StubGen.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/stubs/StubGen.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/stubs/StubSourcesFinder.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/stubs/StubSourcesFinder.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/stubs/Stubs.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/stubs/StubsCollector.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/stubs/StubsCollector.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/tasks">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/tasks/BaseForkTask.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/tasks/BaseForkTask.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/tasks/RunKleeTask.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/tasks/RunKleeTask.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/tasks/ShellExecTask.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/tasks/ShellExecTask.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/testgens">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/testgens/AssertionTestGen.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/testgens/AssertionTestGen.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/testgens/BaseTestGen.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/testgens/BaseTestGen.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/testgens/ClassTestGen.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/testgens/ClassTestGen.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/testgens/FileTestGen.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/testgens/FileTestGen.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/testgens/FolderTestGen.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/testgens/FolderTestGen.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/testgens/FunctionTestGen.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/testgens/FunctionTestGen.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/testgens/LineTestGen.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/testgens/LineTestGen.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/testgens/PredicateTestGen.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/testgens/PredicateTestGen.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/testgens/ProjectTestGen.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/testgens/ProjectTestGen.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/testgens/SnippetTestGen.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/testgens/SnippetTestGen.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/types">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/types/AbstractType.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/types/ArrayType.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/types/FunctionPointerType.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/types/ObjectPointerType.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/types/SimpleType.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/types/TypeVisitor.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/types/TypeVisitor.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/types/Types.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/types/Types.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/types/TypesResolver.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/types/TypesResolver.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/ArgumentsUtils.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/ArgumentsUtils.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/CLIUtils.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/CLIUtils.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/CPipe.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/CPipe.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/CollectionUtils.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/CollectionUtils.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/CompilationUtils.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/CompilationUtils.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/Copyright.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/DynamicLibraryUtils.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/DynamicLibraryUtils.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/ExecUtils.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/ExecUtils.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/ExecutionResult.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/FairMutex.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/FairMutex.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/FileSystemUtils.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/FileSystemUtils.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/GenerationUtils.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/GenerationUtils.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/GrpcUtils.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/GrpcUtils.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/HashUtils.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/HashUtils.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/JsonUtils.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/JsonUtils.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/KleeUtils.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/KleeUtils.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/LinkerUtils.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/LinkerUtils.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/LogUtils.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/LogUtils.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/MakefileUtils.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/MakefileUtils.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/PrinterUtils.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/PrinterUtils.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/RequestLockMutex.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/SanitizerUtils.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/SanitizerUtils.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/ServerUtils.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/ServerUtils.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/StringFormat.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/StringFormat.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/StringUtils.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/StringUtils.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/TestsGenerationUtils.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/TimeUtils.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/TimeUtils.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/TypeTraitsUtils.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/TypeUtils.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/TypeUtils.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/Void.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/Void.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/utils/path">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/visitors">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/visitors/AbstractValueViewVisitor.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/visitors/AbstractValueViewVisitor.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/visitors/AssertsVisitor.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/visitors/AssertsVisitor.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/visitors/FunctionPointerForStubsVisitor.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/visitors/FunctionPointerForStubsVisitor.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/visitors/KleeAssumeParamVisitor.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/visitors/KleeAssumeParamVisitor.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/visitors/KleeAssumeReturnValueVisitor.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/visitors/KleeAssumeReturnValueVisitor.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/visitors/KleeAssumeVisitor.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/visitors/KleeAssumeVisitor.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/visitors/ParametrizedAssertsVisitor.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/visitors/ParametrizedAssertsVisitor.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/visitors/VerboseAssertsParamVisitor.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/visitors/VerboseAssertsParamVisitor.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/visitors/VerboseAssertsReturnValueVisitor.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/visitors/VerboseAssertsReturnValueVisitor.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/visitors/VerboseAssertsVisitor.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/visitors/VerboseAssertsVisitor.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/visitors/VerboseParameterVisitor.cpp">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/src/visitors/VerboseParameterVisitor.h">
+			<Option target="UnitTestBotLib"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/test/framework/BaseTest.cpp">
+			<Option target="UTBot_UnitTests"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/test/framework/BaseTest.h">
+			<Option target="UTBot_UnitTests"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/test/framework/CLI_Tests.cpp">
+			<Option target="UTBot_UnitTests"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/test/framework/CollectionUtil_Tests.cpp">
+			<Option target="UTBot_UnitTests"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/test/framework/KleeGen_Tests.cpp">
+			<Option target="UTBot_UnitTests"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/test/framework/Library_Test.cpp">
+			<Option target="UTBot_UnitTests"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/test/framework/Regression_Tests.cpp">
+			<Option target="UTBot_UnitTests"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/test/framework/Server_Tests.cpp">
+			<Option target="UTBot_UnitTests"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/test/framework/Stub_Tests.cpp">
+			<Option target="UTBot_UnitTests"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/test/framework/Syntax_Tests.cpp">
+			<Option target="UTBot_UnitTests"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/test/framework/Targets_Test.cpp">
+			<Option target="UTBot_UnitTests"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/test/framework/TestUtils.cpp">
+			<Option target="UTBot_UnitTests"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/test/framework/TestUtils.h">
+			<Option target="UTBot_UnitTests"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/test/framework/Utils_Tests.cpp">
+			<Option target="UTBot_UnitTests"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/test/framework/main.cpp">
+			<Option target="UTBot_UnitTests"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/submodules/loguru/loguru.cpp">
+			<Option target="loguru"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/submodules/loguru/loguru.hpp">
+			<Option target="loguru"/>
+		</Unit>
+		<Unit filename="/utbot_distr/gtest/googlemock/src/gmock-all.cc">
+			<Option target="gmock"/>
+		</Unit>
+		<Unit filename="/utbot_distr/gtest/googlemock/src/gmock_main.cc">
+			<Option target="gmock_main"/>
+		</Unit>
+		<Unit filename="/utbot_distr/gtest/googletest/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/utbot_distr/gtest/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/cmake/build_type.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/../../../../utbot_distr/install/lib/cmake/clang/ClangConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\utbot_distr\install\lib\cmake\clang\"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/../../../../utbot_distr/install/lib/cmake/clang/ClangTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\utbot_distr\install\lib\cmake\clang\"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/../../../../utbot_distr/install/lib/cmake/clang/ClangTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\utbot_distr\install\lib\cmake\clang\"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/../../../../utbot_distr/install/lib/cmake/llvm/AddLLVM.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\utbot_distr\install\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/../../../../utbot_distr/install/lib/cmake/llvm/DetermineGCCCompatible.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\utbot_distr\install\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/../../../../utbot_distr/install/lib/cmake/llvm/LLVM-Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\utbot_distr\install\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/../../../../utbot_distr/install/lib/cmake/llvm/LLVMConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\utbot_distr\install\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/../../../../utbot_distr/install/lib/cmake/llvm/LLVMConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\utbot_distr\install\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/../../../../utbot_distr/install/lib/cmake/llvm/LLVMExports-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\utbot_distr\install\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/../../../../utbot_distr/install/lib/cmake/llvm/LLVMExports.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\utbot_distr\install\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/../../../../utbot_distr/install/lib/cmake/llvm/LLVMProcessSources.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\utbot_distr\install\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/../../../../utbot_distr/install/lib/cmake/protobuf/protobuf-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\utbot_distr\install\lib\cmake\protobuf\"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/../../../../utbot_distr/install/lib/cmake/protobuf/protobuf-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\utbot_distr\install\lib\cmake\protobuf\"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/../../../../utbot_distr/install/lib/cmake/protobuf/protobuf-options.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\utbot_distr\install\lib\cmake\protobuf\"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/../../../../utbot_distr/install/lib/cmake/protobuf/protobuf-targets-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\utbot_distr\install\lib\cmake\protobuf\"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/../../../../utbot_distr/install/lib/cmake/protobuf/protobuf-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\utbot_distr\install\lib\cmake\protobuf\"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/../../../../utbot_distr/install/lib/cmake/grpc/gRPCConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\utbot_distr\install\lib\cmake\grpc\"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/../../../../utbot_distr/install/lib/cmake/grpc/gRPCConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\utbot_distr\install\lib\cmake\grpc\"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/../../../../utbot_distr/install/lib/cmake/grpc/gRPCTargets-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\utbot_distr\install\lib\cmake\grpc\"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/../../../../utbot_distr/install/lib/cmake/grpc/gRPCTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\utbot_distr\install\lib\cmake\grpc\"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/../../../../utbot_distr/klee/lib/run_klee/run_klee-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\utbot_distr\klee\lib\run_klee\"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/../../../../utbot_distr/klee/lib/run_klee/RelWithDebInfo/run_klee-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\utbot_distr\klee\lib\run_klee\RelWithDebInfo\"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/../../../../utbot_distr/klee/lib/run_klee/RelWithDebInfo/run_klee.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\utbot_distr\klee\lib\run_klee\RelWithDebInfo\"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/../../../../utbot_distr/gtest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\utbot_distr\gtest\"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/../../../../utbot_distr/gtest/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\utbot_distr\gtest\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/../../../../utbot_distr/gtest/googlemock/cmake/gmock.pc.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\utbot_distr\gtest\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/../../../../utbot_distr/gtest/googlemock/cmake/gmock_main.pc.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\utbot_distr\gtest\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/../../../../utbot_distr/gtest/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\..\..\utbot_distr\gtest\googletest\"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/../../../../utbot_distr/gtest/googletest/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\utbot_distr\gtest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/../../../../utbot_distr/gtest/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\utbot_distr\gtest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/../../../../utbot_distr/gtest/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\..\..\..\..\utbot_distr\gtest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/utbot/UTBotCpp/server/../../../../utbot_distr/gtest/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\utbot_distr\gtest\googletest\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

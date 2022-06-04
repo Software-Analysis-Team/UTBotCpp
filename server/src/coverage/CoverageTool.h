@@ -54,6 +54,7 @@ public:
 
 std::unique_ptr<CoverageTool> getCoverageTool(const std::string &compileCommandsJsonPath,
                                               utbot::ProjectContext projectContext,
-                                              const ProgressWriter *progressWriter);
+                                              const ProgressWriter *progressWriter,
+                                              bool withKcov);
 
 #endif // UNITTESTBOT_COVERAGETOOL_H
