@@ -22,6 +22,8 @@ public:
     void cleanCoverage() const override;
 private:
     const utbot::ProjectContext projectContext;
+
+    fs::path getKcovReportFile() const;
 };
 
 

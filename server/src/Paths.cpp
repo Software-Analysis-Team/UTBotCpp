@@ -214,6 +214,11 @@ namespace Paths {
     fs::path getGccCoverageDir(const utbot::ProjectContext &projectContext) {
         return getCoverageDir(projectContext) / "gcov";
     }
+    ///////////////////////////////////////////////////////
+    fs::path getKcovReportDir(const utbot::ProjectContext &projectContext) {
+        ///////////
+        return nullptr;
+    }
     fs::path getTestExecutable(const utbot::ProjectContext &projectContext,
                                 const fs::path &filePath) {
         return getTestExecDir(projectContext) / filePath.stem();

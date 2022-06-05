@@ -295,6 +295,8 @@ namespace Paths {
 
     fs::path getGccCoverageDir(const utbot::ProjectContext &projectContext);
 
+    fs::path getKcovReportDir(const utbot::ProjectContext &projectContext);
+
     fs::path getTestExecutable(const utbot::ProjectContext &projectContext, const fs::path &filePath);
 
     fs::path getGeneratedHeaderPath(const utbot::ProjectContext &projectContext, const fs::path &sourceFilePath);

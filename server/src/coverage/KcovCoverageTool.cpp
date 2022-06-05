@@ -16,6 +16,7 @@
 #include "utils/MakefileUtils.h"
 #include "utils/StringUtils.h"
 #include "utils/path/FileSystemPath.h"
+//#include "pugixml.hpp"
 
 #include "loguru.h"
 
@@ -30,16 +31,81 @@ KcovCoverageTool::KcovCoverageTool(utbot::ProjectContext projectContext,
 
 std::vector<BuildRunCommand>
 KcovCoverageTool::getBuildRunCommands(const std::vector<UnitTest> &testsToLaunch, bool withCoverage) {
-    return {};
+    ExecUtils::throwIfCancelled();
+
+    std::vector<BuildRunCommand> result;
+    ExecUtils::doWorkWithProgress(
+            testsToLaunch, progressWriter, "Collecting build and run commands",
+            [&](UnitTest const &testToLaunch) {
+                auto makefile = Paths::getMakefilePathFromSourceFilePath(
+                        projectContext,
+                        Paths::testPathToSourcePath(projectContext, testToLaunch.testFilePath));
+                auto gtestFlags = getTestFilter(testToLaunch);
+                auto buildCommand =
+                        MakefileUtils::makefileCommand(projectContext, makefile, "build", gtestFlags);
+                auto runCommand =
+                        MakefileUtils::makefileCommand(projectContext, makefile, "run", gtestFlags);
+                result.push_back({ testToLaunch, buildCommand, runCommand });
+            });
+    return result;
 }
 
 std::vector<ShellExecTask>
 KcovCoverageTool::getCoverageCommands(const std::vector<UnitTest> &testsToLaunch) {
-    return {};
+    fs::path kcovFile = getKcovReportFile();
+
 }
 
 Coverage::CoverageMap KcovCoverageTool::getCoverageInfo() const {
-    return {};
+    ExecUtils::throwIfCancelled();
+
+    CoverageMap coverageMap;
+
+    auto coverageReportDirPath = Paths::getKcovReportDir(projectContext);
+    if (!fs::exists(coverageReportDirPath)) {
+        std::string message = "Couldn't find coverage directory at " + coverageReportDirPath.string();
+        LOG_S(ERROR) << message;
+        throw CoverageGenerationException(message);
+    }
+    LOG_S(INFO) << "Reading coverage file";
+
+//    ExecUtils::doWorkWithProgress(
+//            FileSystemUtils::DirectoryIterator(covJsonDirPath), progressWriter,
+//            "Reading coverage files", [&coverageMap](auto const &entry) {
+//                auto jsonPath = entry.path();
+//                auto coverageJson = JsonUtils::getJsonFromFile(jsonPath);
+//                for (const nlohmann::json &jsonFile : coverageJson.at("files")) {
+//                    fs::path filePath(std::filesystem::path(jsonFile.at("file")));
+//                    if (Paths::isGtest(filePath)) {
+//                        continue;
+//                    }
+//                    setLineNumbers(jsonFile, coverageMap[filePath]);
+//                    setFunctionBorders(jsonFile, coverageMap[filePath]);
+//                }
+//            });
+    return coverageMap;
+}
+
+
+
+
+
+
+
+
+
+
+
+nlohmann::json KcovCoverageTool::getTotals() const {
+    return nlohmann::json();
+}
+
+void KcovCoverageTool::cleanCoverage() const {
+
+}
+
+fs::path KcovCoverageTool::getKcovReportFile() const {
+    return nullptr;
 }
 
 
