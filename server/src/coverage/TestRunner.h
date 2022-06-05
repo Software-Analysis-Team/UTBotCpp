@@ -48,7 +48,7 @@ public:
                std::string testSuite,
                std::string testName);
 
-    void init(bool withCoverage);
+    void init(bool withCoverage, bool withKcov);
 
     std::vector<UnitTest> getTestsToLaunch();
 

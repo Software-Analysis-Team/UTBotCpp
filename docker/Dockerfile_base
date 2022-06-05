@@ -200,6 +200,11 @@ RUN chmod +x /usr/local/bin/lit
 
 RUN sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 100
 
+#Install kcov coverage tool and xml parser
+RUN apt update && apt install -y kcov
+RUN apt install -y libpugixml-dev
+RUN apt install -y libpugixml1v5
+
 # Download CLI11 and Rang libs for nice CLI
 RUN wget https://github.com/CLIUtils/CLI11/releases/download/v1.9.1/CLI11.hpp -P $UTBOT_ALL/cli
 RUN wget https://github.com/agauniyal/rang/releases/download/v3.1.0/rang.hpp -P $UTBOT_ALL/cli

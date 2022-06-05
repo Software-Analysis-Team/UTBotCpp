@@ -34,7 +34,7 @@ grpc::Status CoverageAndResultsGenerator::generate(bool withCoverage,
                                                    utbot::SettingsContext &settingsContext) {
     MEASURE_FUNCTION_EXECUTION_TIME
     try {
-        init(withCoverage);
+        init(withCoverage, true);
         runTests(withCoverage, settingsContext.timeoutPerTest);
         if (withCoverage) {
             collectCoverage();
@@ -82,30 +82,5 @@ nlohmann::json const &CoverageAndResultsGenerator::getTotals() {
 
 void CoverageAndResultsGenerator::collectCoverage() {
     MEASURE_FUNCTION_EXECUTION_TIME
-    if (testsToLaunch.empty()) {
-        return;
-    }
-    std::vector<ShellExecTask> coverageCommands = coverageTool->getCoverageCommands(
-        CollectionUtils::filterToVector(testsToLaunch, [this](const UnitTest &testToLaunch) {
-            return testStatusMap[testToLaunch.testFilePath][testToLaunch.testname] !=
-                   testsgen::TEST_INTERRUPTED;
-        }));
-    if (coverageCommands.empty()) {
-        return;
-    }
-    ExecUtils::doWorkWithProgress(
-        coverageCommands, coverageAndResultsWriter, "Collecting coverage",
-        [this](ShellExecTask &task) {
-            auto [out, status, path] = task.run();
-            if (status != 0) {
-                exceptions.emplace_back(
-                    StringUtils::stringFormat("Command: %s\nOutput: %s", task.toString(), out),
-                    path.value());
-            }
-        });
-
-    LOG_S(DEBUG) << "All coverage commands were executed";
-
     coverageMap = coverageTool->getCoverageInfo();
-    totals = coverageTool->getTotals();
 }

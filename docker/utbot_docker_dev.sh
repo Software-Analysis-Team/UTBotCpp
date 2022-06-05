@@ -10,14 +10,8 @@ CONTAINER_NAME=$USER-utbot-dev
 MOUNT_NAME=$USER-utbot
 MOUNT_LOCAL_NAME=$MOUNT_NAME-local-mnt
 
-read -e -p "Enter base image tag: " IMAGE_TAG
-IMAGE="ghcr.io/unittestbot/utbotcpp/base_env:$IMAGE_TAG"
+IMAGE="kcov_image:latest"
 
-echo "Pulling docker image '$IMAGE'"
-if ! docker pull $IMAGE ; then
-  echo "Failed to fetch the image. Aborting.."
-  exit 1
-fi
 set +e
 docker exec "$CONTAINER_NAME" ls > /dev/null 2>&1
 if [ $? -eq 0 ]

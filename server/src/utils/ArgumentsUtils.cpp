@@ -82,10 +82,10 @@ namespace CompilationUtils {
         switch (compilerName) {
         case CompilerName::GCC:
         case CompilerName::GXX:
-            return { "--coverage" };
+            return { "-g", "--coverage" };
         case CompilerName::CLANG:
         case CompilerName::CLANGXX:
-            return { "-fprofile-instr-generate", "-fcoverage-mapping" };
+            return { "-g", "-fprofile-instr-generate", "-fcoverage-mapping" };
         default:
             break;
         }
