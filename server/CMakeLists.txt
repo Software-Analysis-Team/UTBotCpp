@@ -120,6 +120,9 @@ include_directories("${CMAKE_CURRENT_BINARY_DIR}")
 
 find_package(run_klee REQUIRED)
 
+#
+find_package(pugixml REQUIRED)
+
 option(ENABLE_PRECOMPILED_HEADERS "Enable precompiled headers" ON)
 
 if (ENABLE_PRECOMPILED_HEADERS)
@@ -141,6 +144,7 @@ target_link_libraries(UnitTestBotLib PUBLIC clangTooling clangBasic clangASTMatc
         protobuf::libprotobuf
         loguru
         kleeRunner
+        pugixml
         )
 if (ENABLE_PRECOMPILED_HEADERS)
     target_precompile_headers(UnitTestBotLib PUBLIC pch.h)
@@ -153,6 +157,7 @@ add_llvm_executable(utbot main.cpp)
 target_link_libraries(utbot PUBLIC
         UnitTestBotLib
         loguru
+        pugixml #########
         )
 
 ################################################################################
@@ -180,6 +185,7 @@ if (ENABLE_UNIT_TESTS)
             PUBLIC
             gtest
             UnitTestBotLib
+            pugixml
     )
 
     if (ENABLE_PRECOMPILED_HEADERS)

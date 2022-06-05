@@ -216,8 +216,7 @@ namespace Paths {
     }
     ///////////////////////////////////////////////////////
     fs::path getKcovReportDir(const utbot::ProjectContext &projectContext) {
-        ///////////
-        return nullptr;
+        return getBuildDir(projectContext) / "report";
     }
     fs::path getTestExecutable(const utbot::ProjectContext &projectContext,
                                 const fs::path &filePath) {
